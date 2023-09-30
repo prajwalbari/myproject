@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 112, 112);
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.b1{
+    width: 100%;
+}
+.b1 button{
+    width: 24%;
+    height: 100px;
+    margin-top: 17%;
+
+}
+.b2 button{
+    margin-top: 17%;
+    width: 24%;
+    height: 100px;
+}
+.b1 button:hover{
+    background-color: aqua;
+
+}
+.b2 button:hover{
+   background-color: aqua;
+}
+
+

@@ -1,0 +1,131 @@
+.main{
+    width: 100%;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("ravi24_may_8.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.apple{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+}
+.apple .a{
+    width: 100%;
+    height: 700px;
+    background-image: url("");
+    background-size: cover;
+
+}
+.apple a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size:30px;
+    margin-right:50px;
+    cursor: pointer; 
+    color: white;
+}
+.apple a:hover{
+    font-size: 25px ;
+}
+
+.apple .a h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.apple .a h1:hover{
+   color: red;
+}
+.ball{
+    width: 100%;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.b{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.b1{
+    float: left;
+    width: 45%;
+}
+
+.b2{
+    width: 45%;
+    float: right;
+}
+.donate{
+    width: 100%;
+    height: 800px;
+    background-image: url("ravi24_may_7.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.d{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+}
+.d h1{
+    padding-top: 40%;
+    color: black;
+}
+.d{
+    text-align: center;
+    text-decoration: none;
+}
+.d button{
+    width: 300px;
+    height: 100px;
+    font-size: 50px;  
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    display: inline;
+}
+.d button a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height:900px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    background-size: cover;  
+}
+.f{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.fa{
+    width: 30%;
+    float: left;
+}
+.fb{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.fc{
+    width: 30%;
+    float: right;
+}
+.f p{
+    color: brown;
+    font-size: 20px; 
+    cursor: pointer;
+}
+.hh{
+    padding: 30px;
+    font-size: 60px;
+}

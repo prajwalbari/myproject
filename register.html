@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+   <div class="main">
+    <form id="registerform">
+        <label><h1>ENTER YOUR NAME</h1></label><br>
+        <input type="text" placeholder="username" id="uname" required>
+        <br><br>
+        <label><h1>ENTER YOUR PASSWORD</h1></label><br>
+        <input type="password" placeholder="password" id="password" required>
+        <br><br>
+        <input type="radio" name="gender" required>MALE
+        <input type="radio" name="gender" required>FEMALE
+        <input type="radio" name="gender" required>OTHER <br><br>
+        <input type="submit" value="register">
+        <input type="reset" value="reset">
+    </form>
+
+    <script>
+        document.getElementById("registerform").addEventListener("submit", function (event){
+            event.preventDefault();
+            var uname=document.getElementById("uname").value;
+            var password=document.getElementById("password").value;
+
+            localStorage.setItem("uname",uname);
+            localStorage.setItem("password",password);
+            window.location.href="login.html"
+
+        })
+    </script>
+   </div>
+</body>
+</html>
